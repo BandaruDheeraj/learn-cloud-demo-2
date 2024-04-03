@@ -8,7 +8,7 @@ function App() {
                 <h1>Welcome to My Portfolio</h1>
                 <p>A showcase of my work</p>
             </header>
-            <main className="content">
+            <main className="content">                
                 <div className="project">
                     <h2>Project 1</h2>
                     <p>Description of Project 1</p>
@@ -16,6 +16,10 @@ function App() {
                 <div className="project">
                     <h2>Project 2</h2>
                     <p>Description of Project 2</p>
+                </div>
+                <div className="project">
+                    <h2>Project 3</h2>
+                    <p>Description of Project 3</p>
                 </div>
                 {/* Add more projects as needed */}
             </main>

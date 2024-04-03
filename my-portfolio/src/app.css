@@ -1,6 +1,22 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+h1 {
+    margin-bottom: 0;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+.project p {
+    color: #ffffff;
+    font-weight: 600;
+}
+
 .header {
     text-align: center;
     padding: 10px;
@@ -8,7 +24,28 @@ body {
 }
 .content {
     margin: 20px;
+    width: 600px;
+    margin: auto;
 }
 .project {
     margin-bottom: 20px;
+    margin: 40px auto;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #3b00c4;
+}
+
+.project:nth-child(1){
+    background-image: url("images/project1.png");
+}
+.project:nth-child(2){
+    background-image: url("images/project2.png");
+}
+.project:nth-child(3){
+    background-image: url("images/project3.png");
 }
