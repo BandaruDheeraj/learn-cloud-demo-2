@@ -1,20 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 h1 {
     margin-bottom: 0;
+    font-size: 6em;
+    margin-top: 0;
+    line-height: 90%;
+    width: 0px;
+    display: block;
+    white-space: break-all;
+    
 }
 
 h2 {
     margin: 0;
     padding: 0;
     color: #ffffff;
-    font-size: 1.8em;
+    font-size: 3em;
 }
 
 p {
     margin-block-start: 4px;
+    font-size: 1.6em;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 .project p {
@@ -25,26 +43,25 @@ p {
 }
 
 .header {
-    text-align: center;
+    text-align: left;
     padding: 10px;
     background-color: #f8f9fa;
+    width: 30%;
+    height: 100vh;
+    flex-grow: 1;
 }
 .content {
-    margin: 20px;
-    width: 600px;
-    margin: auto;
+    flex-grow: 11;
 }
 .project {
-    margin-bottom: 20px;
-    margin: 40px auto;
-    width: 400px;
-    height: 200px;
+    width: 100%;;
+    height: 33.3vh;
     background-size: cover;
     overflow: hidden;
     box-sizing: border-box;
-    border-radius: 10px;
     padding: 20px;
     background-color: #3b00c4;
+    background-position: center;
 }
 
 .project:nth-child(1){
