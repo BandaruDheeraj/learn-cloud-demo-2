@@ -10,8 +10,8 @@ h1 {
 h2 {
     margin: 10px 10px 0px;
     padding: 0;
-    color: #1f1f1f;
-    font-size: 1.3em;
+    color: #FFFFFF;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
@@ -20,7 +20,7 @@ p {
 }
 
 .project p {
-    color: #1f1f1f;
+    color: #FFFFFF;
     font-size: 1em;
     margin: 0px;
     padding: 0px;
@@ -43,22 +43,29 @@ p {
 .project {
     margin: 20px auto;
     width: 350px;
-    background-size: cover;
     overflow: hidden;
     box-sizing: border-box;
+    padding: 16px 0;
     border-radius: 10px;
-    background-color: #ffffff;
     box-shadow: 0px 2px 4px rgba(206, 206, 206, 0.4);
+    background-color: #00000070;
+    background-blend-mode: overlay;
+    background-size: cover;
+    
 }
 
-.project:nth-child(1) .image {
-    background-image: url("images/project1.png"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+.project:hover {
+    background-color: #00000000;
 }
-.project:nth-child(2) .image {
-    background-image: url("images/project2.png"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+
+.project:nth-child(1) {
+    background-image: url("images/project1.png");
 }
-.project:nth-child(3) .image {
-    background-image: url("images/project3.png"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+.project:nth-child(2) {
+    background-image: url("images/project2.png");
+}
+.project:nth-child(3) {
+    background-image: url("images/project3.png");
 }
 
 .image {
