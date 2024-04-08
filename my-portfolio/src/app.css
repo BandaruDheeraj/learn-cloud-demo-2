@@ -45,10 +45,15 @@ p {
 .header {
     text-align: left;
     padding: 10px;
-    background-color: #f8f9fa;
     width: 30%;
     height: 100vh;
     flex-grow: 1;
+    color: #FFFFFF;
+    background-color: #00000070;
+    background-image: url("images/header2.png");
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: overlay;
+    background-size: cover;
 }
 .content {
     flex-grow: 11;
