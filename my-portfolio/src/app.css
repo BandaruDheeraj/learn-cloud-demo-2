@@ -5,6 +5,9 @@ body {
     background-size: cover;
     background-color: #f8f9fa;
     color: #FFFFFF;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
 }
 
 /*******************************************
@@ -56,16 +59,17 @@ header p {
 }
 
 .content {
-    margin: 40px;
+    margin: 10px 40px;
     max-width: 1024px;
     display: flex;
+    flex-direction: column;
 }
 
 .project {
     
     margin: 20px 20px 0 0;
-    width: 300px;
-    min-height: 300px;
+    width: 500px;
+    min-height: 150px;
     overflow: hidden;
     box-sizing: border-box;
     padding: 20px;
@@ -75,13 +79,14 @@ header p {
     background-blend-mode: overlay;
     background-size: cover;
     background-position:center;
-    
-    transition: background-color 0.8s ease, width 0.5s ease;
+    flex-direction: column;
+    transition: background-color 0.8s ease, width 0.5s ease, min-height 0.5s ease;
 }
 
 .project:hover {
     background-color: #00000000;
-    width: 500px;
+    width: 600px;
+    min-height: 200px;
 }
 
 .project:nth-child(1) {
